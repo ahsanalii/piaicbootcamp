@@ -29,5 +29,5 @@ jobs:
     - name: install surge
       run: npm install -g surge 
     - name: run surge
-      run: surge ./ piaicbootcamp-project1.surge.sh --token ${{secret.surge_token}}  
+      run: surge ./ piaicbootcamp-project1.surge.sh --token ${{secrets.surge_token}}  
 
